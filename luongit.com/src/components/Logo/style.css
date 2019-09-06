@@ -1,0 +1,9 @@
+.logo-main {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: var(--font-primary);
+}
+
+.logo-slogan {
+    color: var(--font-secondary);
+}

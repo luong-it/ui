@@ -1,0 +1,14 @@
+.SearchBar {
+    padding: 1rem;
+}
+
+.SearchBar--Title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.SearchBar--Subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+}

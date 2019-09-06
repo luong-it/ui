@@ -1,0 +1,21 @@
+/* Reset default settings  */
+*, 
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textarea, select, input, button { 
+    outline: none; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::before, *::after{
+box-sizing: inherit;
+}

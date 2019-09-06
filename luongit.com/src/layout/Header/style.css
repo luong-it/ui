@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+
+    background-color: burlywood;
+}
+
+.Logo-HeaderWrapper {
+    flex: 0 0 40vw; /* flex-grow: 0 - flex-shrink: 0 flex-size: 50vw */
+
+    /* Adjust for LuongIT Logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: green;
+
+}
+
+.Search {
+    flex: 1;
+
+    /* Adjust for LuongIT Logo */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20vw; /* adjust search section to left */
+
+}
+
+
+.SearchBar--JobTitle {
+
+}
+
+.SearchBar--JobLocation {
+}
+
+.SearchButton {
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+

@@ -1,37 +1,5 @@
-:root {
-  --purple: #1967d2;
-  --purple-hover: #2b72d5;
-  --grey: #aeabab;
-}
-
-/* Reset default settings  */
-*, 
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-textarea, select, input, button { outline: none; }
-
 
 .App {
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  min-height: 100vh;
+  background-color: bisque;
 }

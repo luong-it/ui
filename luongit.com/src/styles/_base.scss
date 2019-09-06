@@ -1,0 +1,26 @@
+:root {
+    --color-primary: #333;
+    --color-secondary: #f7f7f7;
+    --font-primary: #f7f7f7;
+    --font-secondary:  #333;
+    --purple: #1967d2;
+    --purple-hover: #2b72d5;
+}
+  
+.night-mode {
+    --color-background: #282c34;
+    --color-secondary: #f7f7f7;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem; // calc(8px + 2vmin);
+    font-weight: 400;
+    background: var(--color-background);
+    color: var(--color-primary);
+}
