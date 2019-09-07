@@ -3,7 +3,7 @@ import Logo from '../../components/Logo'
 import SearchBar from '../../components/SearchBar'
 import Button from '../../components/Button'
 
-import './style.css'
+import './style/index.scss'
 
 export default function Header(props) {
   return (
@@ -13,13 +13,13 @@ export default function Header(props) {
       </div>
       <div className="Search">
         <div className="SearchBar--JobTitle">
-          <SearchBar title="Cong viec" subtitle="Intern, Junior, Senior"/>
+          <SearchBar title="Công việc" subtitle="Software Engineer, Data Scientist, etc."/>
         </div>
         <div className="SearchBar--JobLocation">
-          <SearchBar title="Dia diem"  subtitle="Ho Chi Minh, Ha Noi, Da Nang"/>
+          <SearchBar title="Địa điểm"  subtitle="Ho Chi Minh, Ha Noi, Da Nang"/>
         </div>
         <div className="SearchButton">
-          <Button title="Xem Luong" />
+          <Button title="Xem Lương" />
         </div>
       </div>
     </header>

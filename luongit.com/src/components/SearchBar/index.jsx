@@ -7,7 +7,7 @@ export default function SearchBar(props) {
       <div className="SearchBar--Title">{props.title}</div>
       <div className="SearchBar--Subtitle">{props.subtitle}</div>
 
-      <input id="text-input-what" class="icl-TextInput-control icl-TextInput-control--whatWhere"
+      <input className="SearchBar--Input"
         autocomplete="off" ></input>
     </div>
   )

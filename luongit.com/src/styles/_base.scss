@@ -1,10 +1,12 @@
 :root {
-    --color-primary: #333;
-    --color-secondary: #f7f7f7;
-    --font-primary: #f7f7f7;
+    --color-primary: rgb(246, 246, 246);
+    --font-primary: #4b4b4b;
+
+    --color-secondary: #085ff7;
     --font-secondary:  #333;
-    --purple: #1967d2;
-    --purple-hover: #2b72d5;
+
+    --button: #1967d2;
+    --button-hover: #2b72d5;
 }
   
 .night-mode {

@@ -12,3 +12,18 @@
     font-weight: 300;
     padding-bottom: 0.5rem;
 }
+
+
+.SearchBar--Input {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    min-height: 2rem;
+    min-width: 20rem;
+    color: #4b4b4b;
+}
+
+.SearchBar--Input:focus {
+    border-color: #1497ff;
+}
